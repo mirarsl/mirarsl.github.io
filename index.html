@@ -1,32 +1,83 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Bario Creative Agency</title>
-  <meta name="description" content="Bario Creative Agency — Dijital dünyada yaratıcı çözümler. Web tasarım, grafik tasarım, marka danışmanlığı ve daha fazlası.">
-  <link rel="stylesheet" href="assets/style.css" />
-  <link rel="canonical" href="https://bario.com.tr" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bario Creative Agency – Kocaeli Dijital Reklam & Web Ajansı</title>
+  <meta name="description" content="Bario Creative Agency, Kocaeli merkezli dijital ajansınız. Web tasarım, grafik tasarım, sosyal medya, mobil uygulama ve video prodüksiyon hizmetleriyle markanızı güçlendiriyoruz.">
+  <link rel="canonical" href="https://bario.com.tr">
+  <meta property="og:title" content="Bario Creative Agency – Kocaeli Dijital Reklam Ajansı">
+  <meta property="og:description" content="Web tasarım, grafik tasarım, sosyal medya, mobil uygulama ve video prodüksiyon hizmetleri sunuyoruz.">
+  <meta property="og:url" content="https://bario.com.tr">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-  <main>
+  <header>
     <h1>Bario Creative Agency</h1>
-    <p><strong>Hoş geldiniz!</strong> Biz dijital dünyada fark yaratan yaratıcı bir ajansız.</p>
+    <p>Kocaeli merkezli tam hizmet dijital reklam ajansı.</p>
+    <nav>
+      <a href="#hizmetler">Hizmetlerimiz</a>
+      <a href="#referanslar">Referanslar</a>
+      <a href="#iletisim">İletişim</a>
+    </nav>
+  </header>
 
-    <h2>Hizmetlerimiz</h2>
+  <section id="hizmetler">
+    <h2>Neler Yapıyoruz?</h2>
+    <div class="hizmetler-grid">
+      <article>
+        <h3>Grafik Tasarım</h3>
+        <p>Eşsiz tasarımlarımızla, logo, katalog, kurumsal kimlik gibi baskılı/dijital her alanda markanızı güçlendiriyoruz. :contentReference[oaicite:2]{index=2}</p>
+      </article>
+      <article>
+        <h3>Web Tasarım & Yazılım</h3>
+        <p>SEO uyumlu web siteleri, mobil uygulamalar ve e‑ticaret çözümleri sunuyoruz—kullanıcı deneyimini ön planda tutuyoruz. :contentReference[oaicite:3]{index=3}</p>
+      </article>
+      <article>
+        <h3>Video & Prodüksiyon</h3>
+        <p>Tanıtım filmi, animasyon kısa film, drone çekimi gibi güçlü içeriklerle markanıza hayat veriyoruz. :contentReference[oaicite:4]{index=4}</p>
+      </article>
+      <article>
+        <h3>Sosyal Medya Yönetimi</h3>
+        <p>Kapsamlı strateji, içerik, reklam ve kriz yönetimi ile markanızı sosyal medyada büyütüyoruz. :contentReference[oaicite:5]{index=5}</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="referanslar">
+    <h2>Referanslarımız</h2>
     <ul>
-      <li>Web Tasarım</li>
-      <li>Grafik Tasarım</li>
-      <li>Marka Danışmanlığı</li>
-      <li>Sosyal Medya Yönetimi</li>
+      <li>Byfix Otomotiv (Tanıtım Filmi, Web Tasarım)</li>
+      <li>Privegi, Zuzu Toys, Özden OSGB, Dedesan İnşaat (Sosyal Medya, Logo, Web)</li>
+      <!-- Daha fazlası buraya eklenebilir -->
+      :contentReference[oaicite:6]{index=6}
     </ul>
+  </section>
 
-    <h2>Web Sitemiz</h2>
-    <p>
-      Daha fazla bilgi için resmi web sitemizi ziyaret edin:
-      <a href="https://bario.com.tr" target="_blank" rel="noopener">bario.com.tr</a>
-    </p>
-  </main>
+  <section id="blog">
+    <h2>Blogdan Öne Çıkanlar</h2>
+    <article>
+      <h3>SEO ve Backlinklerin Önemi</h3>
+      <p>Google sıralamasında yükselmek için backlink stratejileri ve SEO ipuçları. :contentReference[oaicite:7]{index=7}</p>
+      <a href="/blog/seo-backlink-onemi">Devamını oku →</a>
+    </article>
+  </section>
+
+  <section id="iletisim">
+    <h2>İletişime Geçin</h2>
+    <address>
+      <p><strong>Email:</strong> <a href="mailto:info@bario.com.tr">info@bario.com.tr</a></p>
+      <p><strong>Tel:</strong> +90 543 141 90 95</p>
+      <p><strong>Adres:</strong> Yahyakaptan Mh. Elzem Sk. No:54, Daire:246, İzmit/Kocaeli</p>
+    </address>
+    <form action="/iletisim" method="post">
+      <input type="text" name="isim" placeholder="Adınız" required>
+      <input type="email" name="email" placeholder="E‑posta" required>
+      <textarea name="mesaj" placeholder="Mesajınız…" required></textarea>
+      <button type="submit">Gönder</button>
+    </form>
+  </section>
 
   <footer>
     <p>&copy; 2025 Bario Creative Agency. Tüm hakları saklıdır.</p>
